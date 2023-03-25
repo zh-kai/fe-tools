@@ -1,10 +1,12 @@
 name: Deploy to GitHub Pages
 
+# 权限
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# 并发
 concurrency:
   group: 'pages'
   cancel-in-progress: false
@@ -29,7 +31,7 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Static HTML export with Nuxt
-        run: yarn generate
+        run: NUXT_APP_BASE_URL=${{ github.repository }} yarn generate
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
