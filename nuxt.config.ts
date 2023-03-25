@@ -1,11 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  build: {},
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-  css: ['~~/assets/css/main.css'],
+  modules: ['nuxt-windicss'],
+  css: ['@fortawesome/fontawesome-free/css/all.min.css', '~~/assets/css/main.css'],
 })
