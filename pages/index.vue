@@ -44,10 +44,39 @@
         <span>Effects</span>
       </h2>
 
-      <div class="flex p-2">
-        <CustomLink to="/effects">
+      <div class="flex gap-6 p-2">
+        <CustomLink to="/effects/hover">
           <i class="fa-solid fa-hand-sparkles"></i>
           <span>Hover effects</span>
+        </CustomLink>
+
+        <CustomLink to="/effects/word-rain">
+          <i class="fa-solid fa-code"></i>
+          <span>Word Rain</span>
+        </CustomLink>
+      </div>
+    </div>
+
+    <div>
+      <h2 class="flex items-center gap-2 mb-4 text-2xl font-semibold">
+        <i class="fa-solid fa-robot text-lg"></i>
+        <span>AI</span>
+      </h2>
+
+      <div class="flex gap-6 p-2">
+        <CustomLink href="https://chat.plexpt.com/">
+          <img src="~~/assets/images/logo/chat-plexpt.svg" class="w-5" alt="" />
+          <span>智造喵</span>
+        </CustomLink>
+
+        <CustomLink href="https://openprompt.co/">
+          <IconsAiOpenPrompt class="w-5" />
+          <span>Open Prompt</span>
+        </CustomLink>
+
+        <CustomLink href="https://www.vondy.com/">
+          <IconsAiVondy class="w-5" />
+          <span>vondy</span>
         </CustomLink>
       </div>
     </div>
