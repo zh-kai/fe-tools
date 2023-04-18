@@ -8,6 +8,7 @@
     <div class="flex gap-6">
       <EffectsStripes />
       <EffectsSticky />
+      <EffectsSlide />
     </div>
   </div>
 </template>
