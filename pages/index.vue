@@ -6,7 +6,7 @@
         <span>Tools</span>
       </h2>
 
-      <div class="flex p-2">
+      <div class="flex gap-6 p-2">
         <CustomLink to="/color">
           <i class="fa-solid fa-palette"></i>
           <span>Color Conversions</span>
@@ -64,19 +64,9 @@
       </h2>
 
       <div class="flex gap-6 p-2">
-        <CustomLink href="https://chat.plexpt.com/">
-          <img src="~~/assets/images/logo/chat-plexpt.svg" class="w-5" alt="" />
-          <span>智造喵</span>
-        </CustomLink>
-
-        <CustomLink href="https://openprompt.co/">
-          <IconsAiOpenPrompt class="w-5" />
-          <span>Open Prompt</span>
-        </CustomLink>
-
-        <CustomLink href="https://www.vondy.com/">
-          <IconsAiVondy class="w-5" />
-          <span>vondy</span>
+        <CustomLink href="https://poe.com/">
+          <IconsAiPoe class="w-4" />
+          <span>Poe</span>
         </CustomLink>
       </div>
     </div>
