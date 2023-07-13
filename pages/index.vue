@@ -77,6 +77,10 @@
         <CustomLink href="https://prompthero.com/">
           <span>Prompt Hero</span>
         </CustomLink>
+
+        <CustomLink href="https://clipdrop.co/">
+          <span>Clipdrop</span>
+        </CustomLink>
       </div>
     </div>
   </div>
