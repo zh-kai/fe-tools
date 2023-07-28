@@ -59,6 +59,11 @@
           <i class="fa-solid fa-code"></i>
           <span>Word Rain</span>
         </CustomLink>
+
+        <CustomLink to="/effects/scroll-timeline">
+          <i class="fa-solid fa-code"></i>
+          <span>Scroll Timeline</span>
+        </CustomLink>
       </div>
     </div>
 
