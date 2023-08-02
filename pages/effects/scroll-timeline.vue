@@ -28,11 +28,13 @@ definePageMeta({ layout: 'empty' })
 
 <style lang="less" scoped>
 .wrap {
-  animation: scrollAnimate linear;
+  animation-name: scrollAnimate;
+  animation-timing-function: linear;
   animation-timeline: scroll(root block);
 }
 .progress {
-  animation: progressScale linear;
+  animation-name: progressScale;
+  animation-timing-function: linear;
   animation-timeline: scroll(root block);
 }
 @keyframes progressScale {
@@ -53,7 +55,8 @@ definePageMeta({ layout: 'empty' })
 }
 
 .content {
-  animation: contentFade linear;
+  animation-name: contentFade;
+  animation-timing-function: linear;
   animation-timeline: view(block 50% auto);
 }
 @keyframes contentFade {
