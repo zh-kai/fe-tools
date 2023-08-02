@@ -9,6 +9,7 @@
       <EffectsStripes />
       <EffectsSticky />
       <EffectsSlide />
+      <EffectsLightBorder />
     </div>
   </div>
 </template>
