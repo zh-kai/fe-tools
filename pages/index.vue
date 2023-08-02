@@ -40,6 +40,11 @@
           <i class="fa-solid fa-code"></i>
           <span>Scroll Timeline</span>
         </CustomLink>
+
+        <CustomLink to="/effects/view-transition">
+          <i class="fa-solid fa-code"></i>
+          <span>View Transition & Drag</span>
+        </CustomLink>
       </div>
     </div>
 
