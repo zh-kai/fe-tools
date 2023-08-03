@@ -11,5 +11,5 @@ export default defineConfig({
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require('windicss/plugin/aspect-ratio')],
 })

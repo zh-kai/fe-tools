@@ -25,7 +25,7 @@
         <span>Effects</span>
       </h2>
 
-      <div class="flex gap-6 p-2">
+      <div class="flex flex-wrap gap-6 p-2">
         <CustomLink to="/effects/hover">
           <i class="fa-solid fa-hand-sparkles"></i>
           <span>Hover effects</span>
@@ -44,6 +44,11 @@
         <CustomLink to="/effects/view-transition">
           <i class="fa-solid fa-code"></i>
           <span>View Transition & Drag</span>
+        </CustomLink>
+
+        <CustomLink to="/effects/background-spotlight">
+          <i class="fa-solid fa-code"></i>
+          <span>Background Spotlight</span>
         </CustomLink>
       </div>
     </div>
